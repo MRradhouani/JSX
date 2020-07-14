@@ -1,6 +1,17 @@
+.style{
+  border:solid 1px black;
+  max-width:100vw;
+}
+
+.h1{
+  color: red;
+}
+
 .App {
   text-align: center;
 }
+
+
 
 .App-logo {
   height: 40vmin;
