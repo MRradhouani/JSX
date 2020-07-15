@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import './style.css';
+import { Player } from 'video-react';
+ 
 // class MyHeader extends React.Component {
 //   render() {
 //     return (
@@ -33,6 +35,18 @@ function App() {
           <h1 className="red">Radhouani Mohaned </h1>
           <img src="../imageInSrc.jpg" className="imageInSrc" alt="imageInSrc" />
           <img src="../imageInPublic.jpg" className="imageInPublic" alt="imageInPublic" />
+        
+          
+              
+          <link
+  rel="stylesheet"
+  href="https://www.youtube.com/watch?v=5mbIjhJA96Q"
+/>
+
+<Player>
+      <source src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4" />
+    </Player>
+
         </div>
         
         <img src={logo} className="App-logo" alt="logo" />
@@ -54,4 +68,8 @@ function App() {
   );
 }
 
-export default App;
+ 
+  
+
+  export default App;
+
